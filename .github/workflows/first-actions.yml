@@ -9,5 +9,8 @@ jobs:
         - name: Welcome message
           run: echo "Welcome to Github Actions"
         
+    second_job:
+        runs-on: ubuntu-latest
+        steps:
         - name: List files in directory
           run: ls
