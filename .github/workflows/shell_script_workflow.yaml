@@ -7,5 +7,10 @@ jobs:
     script_job:
         runs-on: ubuntu-latest
         steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4   
+
         - name: Execute shell script
-          run: ./print_num.sh
+          run: |
+              chmod o+x print_num.sh           
+              ./print_num.sh
