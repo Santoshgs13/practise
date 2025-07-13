@@ -12,5 +12,5 @@ jobs:
 
         - name: Execute shell script
           run: |
-              chmod o+x print_num.sh           
+              chmod +x print_num.sh           
               ./print_num.sh
