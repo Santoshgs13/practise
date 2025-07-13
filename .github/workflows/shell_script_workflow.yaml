@@ -15,5 +15,5 @@ jobs:
 
         - name: Execute shell script
           run: |
-              chmod +x print_num.sh           
+              chmod +x ./.github/workflows/print_num.sh    
               ./.github/workflows/print_num.sh
