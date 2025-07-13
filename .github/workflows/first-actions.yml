@@ -8,9 +8,9 @@ jobs:
         steps:
         - name: Checkout repository
           uses: actions/checkout@v4
-          
+
         - name: Welcome message
           run: echo "Welcome to Github Actions"
         
         - name: List files in directory
-          run: ls
+          run: ls /root
