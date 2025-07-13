@@ -14,3 +14,9 @@ jobs:
         
         - name: List files in directory
           run: ls 
+
+        - name: Run multiple command in single task
+          run: |                                  # To run multiple commands use pipe
+             echo "Task to run multiple commands in single task"
+             ls -ltra
+             cat README.md
