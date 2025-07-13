@@ -13,4 +13,4 @@ jobs:
           run: echo "Welcome to Github Actions"
         
         - name: List files in directory
-          run: sudo ls /root
+          run: ls 
